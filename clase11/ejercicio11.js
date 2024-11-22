@@ -10,6 +10,9 @@ const prompt = require("prompt-sync")({ sigint: true });
 
 // let numero = parseFloat(prompt(" ingrese un numero : "));
 
+
+
+
 // if (numero > 0) {
 //   console.log(`el numero ingresado es positivo : ${numero}`);
 // }else if(numero<0){
@@ -18,7 +21,10 @@ const prompt = require("prompt-sync")({ sigint: true });
 //     console.log(`el numero ingresado es  : ${numero}`);
 // }
 
+
 /*
+
+
 ? Ejercicio 2: Semáforo inteligente 
 ? Consigna:
 ? Vamos a programar un semáforo. Escribe un programa que le pida al usuario 
@@ -70,7 +76,10 @@ const prompt = require("prompt-sync")({ sigint: true });
 ? usuario un número y determine si es par o impar. Muestra un mensaje 
 ? explicativo indicando qué significa cada caso*/
 
-// let numero=parseFloat(prompt("ingrese un numero : "));
+let numero=parseFloat(prompt("ingrese un numero : "));
+
+let resultado= numero%2 === 0? "es par" :"es impar";
+console.log( resultado);
 
 // if (numero%2 ===0 ) {
 //     console.log("el numero es par");
