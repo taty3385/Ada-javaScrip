@@ -194,24 +194,26 @@ numeración es de 1 a N).
 ✓ Si el modelo no está en el array, debe imprimir un mensaje indicando que 
 el modelo no está presente.*/
 
-// let modelosAutos = ["fiat", "peugeot", "renaul", "volvagen", "ferrari", "renaul", "fiat"];
+let modelosAutos = ["fiat", "peugeot", "renaul", "volvagen", "ferrari", "renaul", "fiat"];
 
-// const ultimaAparicionModeloAuto = (modelo) => {
-//   let posicion = [];
-//   for (let i = 0; i < modelosAutos.length; i++) {
-//     if (modelosAutos[i] === modelo) {
-//       posicion.push(i + 1);
-//     }
-//   }
-//   if (posicion.length === 0) {
-//     return `El modelo no está presente`;
-//   }
-//   return posicion[posicion.length - 1]; // me va a devolver la ultima posicion
-// };
+const ultimaAparicionModeloAuto = (modelo) => {
+  let posicion = [];
+  for (let i = 0; i < modelosAutos.length; i++) {
+    if (modelosAutos[i] === modelo) {
+        console.log(modelosAutos[i]);
+        
+      posicion.push(i + 1);
+    }
+  }
+  if (posicion.length === 0) {
+    return `El modelo no está presente`;
+  }
+  return posicion[posicion.length - 1]; // me va a devolver la ultima posicion
+};
 
-// console.log(ultimaAparicionModeloAuto("renaul"));
-// console.log(ultimaAparicionModeloAuto("fiat"));
-// console.log(ultimaAparicionModeloAuto("toyota"));
+console.log(ultimaAparicionModeloAuto("renaul"));
+console.log(ultimaAparicionModeloAuto("fiat"));
+console.log(ultimaAparicionModeloAuto("toyota"));
 
 /*• Ejercicio 10: Flores Favoritas
 Escribe un programa en JavaScript para contar cuántas veces el usuario 
@@ -224,20 +226,20 @@ favoritas.
 4. Muestra por consola cuántas de las flores favoritas se mencionaron (esto 
 debe hacerse manualmente*/
 
-const floresFavoritas = () => {
-  let favoritas = [];
-  let contador = 0;
-  for (let i = 0; i < 3; i++) {
-    let usuario = prompt("Ingrese su flor favorita:");
-    favoritas[favoritas.length] = usuario;
-  }
-  let usuarioFlor = prompt(
-    "Ingrese una flor para verificar si esta en sus favoritas:"
-  );
-  if (favoritas.includes(usuarioFlor)) {
-    contador++;
-    return `usted menciono ${contador} flores ${usuarioFlor}  de sus favoritas`;
-  } else return `usted no menciono ${usuarioFlor} en sus flores favoritas`;
-};
+// const floresFavoritas = () => {
+//   let favoritas = [];
+//   let contador = 0;
+//   for (let i = 0; i < 3; i++) {
+//     let usuario = prompt("Ingrese su flor favorita:");
+//     favoritas[favoritas.length] = usuario; // agrego las flores al array  favoritas.length me va a dar la posicion de la ultima flor y se va = a usuario cada vez que se repita el for
+//   }
+//   let usuarioFlor = prompt(
+//     "Ingrese una flor para verificar si esta en sus favoritas:"
+//   );
+//   if (favoritas.includes(usuarioFlor)) {
+//     contador++;
+//     return `usted menciono ${contador} flores ${usuarioFlor}  de sus favoritas`;
+//   } else return `usted no menciono ${usuarioFlor} en sus flores favoritas`;
+// };
 
-console.log(floresFavoritas());
+// console.log(floresFavoritas());
