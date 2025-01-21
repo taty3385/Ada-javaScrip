@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nombre": "piter pan",
+    "cantidadTemporada": 5
+  },
+  {
+    "id": 2,
+    "nombre": "los simpson",
+    "cantidadTemporada": 11
+  },
+  {
+    "id": 3,
+    "nombre": "breaking bad",
+    "cantidadTemporada": 5
+  },
+  {
+    "id": 4,
+    "nombre": "piter pan",
+    "cantidadTemporada": 3
+  },
+  {
+    "id": 5,
+    "nombre": "los simpson",
+    "cantidadTemporada": 10
+  },
+  {
+    "id": 6,
+    "nombre": "breaking bad",
+    "cantidadTemporada": 5
+  },
+  {
+    "id": 7,
+    "nombre": "piter pan",
+    "cantidadTemporada": 3
+  },
+  {
+    "id": 8,
+    "nombre": "los simpson",
+    "cantidadTemporada": 10
+  },
+  {
+    "id": 9,
+    "nombre": "breaking bad",
+    "cantidadTemporada": 5
+  }
+]

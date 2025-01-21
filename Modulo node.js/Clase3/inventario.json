@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nombre": "jabon ",
+    "cantidad": 5
+  },
+  {
+    "id": 2,
+    "nombre": "perfume ",
+    "cantidad": 5
+  },
+  {
+    "id": 3,
+    "nombre": "perfume ",
+    "cantidad": 8
+  }
+]

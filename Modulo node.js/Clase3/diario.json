@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "fecha": "14/10/2021",
+    "texto": "hoy es un dia nublado"
+  },
+  {
+    "id": 2,
+    "fecha": "12/10/2021",
+    "texto": "hoy es un dia soleado"
+  },
+  {
+    "id": 3,
+    "fecha": "13/10/2021",
+    "texto": "hoy es un dia lluvioso"
+  },
+  {
+    "id": 4,
+    "fecha": "14/10/2021",
+    "texto": "hoy es un dia nublado"
+  }
+]

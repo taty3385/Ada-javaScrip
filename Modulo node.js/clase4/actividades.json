@@ -1,0 +1,12 @@
+[
+  {
+    "tipo": "correr",
+    "duracion": 30,
+    "fecha": "2025-01-20T20:06:10.958Z"
+  },
+  {
+    "tipo": "nadar",
+    "duracion": 60,
+    "fecha": "2025-01-20T20:06:10.959Z"
+  }
+]

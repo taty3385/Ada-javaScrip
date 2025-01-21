@@ -1,0 +1,22 @@
+[
+  {
+    "fecha": "2025-01-20T20:04:06.368Z",
+    "titulo": "titulo1",
+    "contenido": "contenido1"
+  },
+  {
+    "fecha": "2025-01-20T20:04:06.369Z",
+    "titulo": "titulo2",
+    "contenido": "contenido2"
+  },
+  {
+    "fecha": "2025-01-20T20:06:10.955Z",
+    "titulo": "titulo1",
+    "contenido": "contenido1"
+  },
+  {
+    "fecha": "2025-01-20T20:06:10.956Z",
+    "titulo": "titulo2",
+    "contenido": "contenido2"
+  }
+]
