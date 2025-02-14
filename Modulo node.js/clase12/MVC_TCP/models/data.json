@@ -1,0 +1,98 @@
+[{
+    "id": 1, 
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+     "anio": 2020
+},
+{
+    "id": 2, 
+    "marca": "Ford",
+    "modelo": "Focus",
+     "anio": 2019
+},
+{
+    "id": 3, 
+    "marca": "Fiat",
+    "modelo": "Cronos",
+     "anio": 2018
+},
+{
+    "id": 4, 
+    "marca": "Volkswagen",
+    "modelo": "Gol",
+     "anio": 2017
+},
+{
+    "id": 5, 
+    "marca": "Renault",
+    "modelo": "Kwid",
+     "anio": 2016
+},
+{
+    "id": 6, 
+    "marca": "Peugeot",
+    "modelo": "208",
+     "anio": 2015
+},
+{
+    "id": 7, 
+    "marca": "Toyota",
+    "modelo": "Corolla",
+     "anio": 2014
+},
+{
+    "id": 8, 
+    "marca": "Nissan",
+    "modelo": "March",
+     "anio": 2013
+},
+{
+    "id": 9, 
+    "marca": "Citroen",
+    "modelo": "C3",
+     "anio": 2012
+},
+{
+    "id": 10, 
+    "marca": "Honda",
+    "modelo": "Fit",
+     "anio": 2011
+},
+{
+    "id": 11, 
+    "marca": "Hyundai",
+    "modelo": "HB20",
+     "anio": 2010
+},
+{
+    "id": 12, 
+    "marca": "Kia",
+    "modelo": "Picanto",
+     "anio": 2009
+},
+{
+    "id": 13, 
+    "marca": "Mitsubishi",
+    "modelo": "Lancer",
+     "anio": 2008
+},
+{
+    "id": 14, 
+    "marca": "Subaru",
+    "modelo": "Impreza",
+     "anio": 2007
+},
+{
+    "id": 15, 
+    "marca": "Suzuki",
+    "modelo": "Swift",
+     "anio": 2006
+},
+{
+    "id": 16, 
+    "marca": "Mercedes Benz",
+    "modelo": "Clase A",
+     "anio": 2005
+}
+   
+]
