@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Hotel A",
+        "rooms": [
+            {"roomNumber": 101, "available": true},
+            {"roomNumber": 102, "available": false},
+            {"roomNumber": 103, "available": true}
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Hotel B",
+        "rooms": [
+            {"roomNumber": 201, "available": true},
+            {"roomNumber": 202, "available": true},
+            {"roomNumber": 203, "available": false}
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Hotel C",
+        "rooms": [
+            {"roomNumber": 301, "available": false},
+            {"roomNumber": 302, "available": true},
+            {"roomNumber": 303, "available": true}
+        ]
+    }
+]

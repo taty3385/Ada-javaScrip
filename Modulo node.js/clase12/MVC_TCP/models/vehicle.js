@@ -8,7 +8,7 @@ const path = require("path");
 // __dirname es una variable global que nos da la ruta del directorio actual
 const dataPath = path.join(__dirname, "data.json");
 
-// creamos un objeto que obtendra metodos para interactur con los datos de los vehiculos
+// paso3  creamos un objeto que obtendra metodos para interactur con los datos de los vehiculos
 
 const vehicleModel = {
   // metodo para obtener un vehiculo por id

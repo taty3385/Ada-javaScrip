@@ -3,7 +3,7 @@
 const net=require('net');
 
 //IMPORTAMOS EL MODULO VEHICLECONTROLLER
-const vehicleController=require('./controlers/vehicleController');
+const vehicleController=require('../controlers/vehicleController');
 
 //CREAMOS UN SERVIDOR 
 

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "El señor de los anillos",
+        "author": "J.R.R. Tolkien",
+        "year": 1954,
+        "genre": "Fantasía"
+    },
+    {
+        "id": 2,
+        "title": "El código Da Vinci",
+        "author": "Dan Brown",
+        "year": 2003,
+        "genre": "Novela"
+    },
+    {
+        "id": 3,
+        "title": "El principito",
+        "author": "Antoine de Saint-Exupéry",
+        "year": 1943,
+        "genre": "Infantil"
+    },
+    {
+        "id": 4,
+        "title": "Don Quijote de la Mancha",
+        "author": "Miguel de Cervantes",
+        "year": 1605,
+        "genre": "Novela"
+    },
+    {
+        "id": 5,
+        "title": "Cien años de soledad",
+        "author": "Gabriel García Márquez",
+        "year": 1967,
+        "genre": "Novela"
+    }
+]
