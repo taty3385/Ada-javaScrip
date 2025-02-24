@@ -9,7 +9,7 @@
 
 const fs = require("fs");
 
-let data = fs.readFileSync("data.json", "utf-8"); // Lee el archivo data.json
+let data = fs.readFileSync("data.json", "utf-8"); // Leo el archivo data.json
 if (!data) {  // Si el archivo no existe, crea un array vacío
   data = "[]"; // Crea un array vacío
   const datos = JSON.parse(data);// Convierte la cadena JSON a un objeto
