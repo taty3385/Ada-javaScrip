@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1dc45e42-d412-4cb4-ba2c-f9498a85b28f",
+    "nombre": "tamara",
+    "password": "1234"
+  },
+  {
+    "id": "d1d235bb-86cc-4511-95b2-c37eec79c699",
+    "nombre": "tamara",
+    "password": "llll"
+  },
+  {
+    "id": "989d5737-70dc-42c8-a3e4-29fd48580bae",
+    "nombre": "alejandro",
+    "password": "1234"
+  },
+  {
+    "id": "6c0092b6-0eea-409e-a917-620ea2e8ca39",
+    "nombre": "tamara2",
+    "password": "1234"
+  },
+  {
+    "id": "aa85e081-f590-4d72-aa3b-8e42434ef80f",
+    "nombre": "tamara",
+    "password": "5678"
+  }
+]

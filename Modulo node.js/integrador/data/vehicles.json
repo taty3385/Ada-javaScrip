@@ -1,0 +1,36 @@
+[
+  {
+    "id": 2,
+    "brand": "Ford",
+    "model": "Focus",
+    "year": 2019
+  },
+  {
+    "brand": "ggggg",
+    "model": "ffffff",
+    "year": 12233,
+    "km": 45555,
+    "id": "b4bd455e-88d4-4968-a8ff-97929b8040e8"
+  },
+  {
+    "brand": "fffff",
+    "model": "ddddd",
+    "year": 1234,
+    "km": 4444,
+    "id": "27b8720f-4028-452d-8053-e6abacfe0ef6"
+  },
+  {
+    "brand": "toyota",
+    "model": "2010",
+    "year": 2010,
+    "km": 10000,
+    "id": "c0f97ad9-a34e-40ca-bdec-b70f8d157674"
+  },
+  {
+    "brand": "tttttt",
+    "model": "2010",
+    "year": 2013,
+    "km": 3000,
+    "id": "53f74a0d-f660-4a95-b075-a5d71c104ed8"
+  }
+]
