@@ -11,7 +11,6 @@ const displayVehicles = (vehicles) => {
         } - ${vehicle.km}\n`
       );
     });
-    // return result;
   }
 };
 
@@ -37,9 +36,25 @@ const confirmVehicle = (message) => {
   console.log(message);
 };
 
+const propmId = () => {
+  const idVehicle = readlineSync.questionInt("ingrese el id del vehiculo a modificar");
+  return idVehicle;
+};
+
+const modificacioneeVehicle=()=>{
+    
+    const marca=readlineSync.question( "modifique la marca")
+
+    const anio=readlineSync.question( "modifique la anio")
+    const modelo=readlineSync.question( "modifique la modelo ")
+    return { marca ,anio ,modelo}
+}
+
 module.exports = {
   displayVehicles,
   addVehicle,
   promptForVehicleID,
   confirmVehicle,
+  propmId,
+  modificacioneeVehicle
 };
