@@ -1,22 +1,39 @@
+const { log } = require("util");
+const vehicleController = require("./controllers/vehicleController");
 const net = require("net");
 
 const server = net.createServer((socket) => {
-  console.log("Cliente conectado");
+  console.log("cliente conectado");
+
+ 
 
   socket.on("data", (data) => {
-    const datos = data.toString().trim();
-    socket.write(datos);
-  });
+    const datos = data.toString();
+   const parsedData = JSON.parse(datos);
 
-  socket.on("end", () => {
-    console.log("Cliente desconectado");
-  });
+    let response;
+    switch (parsedData.option) {
+      case "1":
+        response = vehicleController.display();
 
-  socket.on("error", (error) => {
-    console.error("Error de conexión:", error);
+        break;
+        case "2":
+         response= vehicleController.addVehicle(parsedData.newVehicle);
+        break
+      default:
+        response = "Opción no válida";
+        break;
+    }
+    
+    socket.write(response);
+   
+  });
+  
+  socket.on("error", (err) => {
+    console.log(err.message);
   });
 });
 
-server.listen(3000, () => {
-  console.log("Servidor escuchando en el puerto 3000");
+server.listen(8000, () => {
+  console.log("servidor corriendo en el puerto 8000");
 });

@@ -1,17 +1,20 @@
-const fs = require('fs');
-const path = require('path');
-const file=  path.join(__dirname,'../data/vehicles.json');
+const fs = require("fs");
+const path = require("path");
+const fileVehicle = path.join(__dirname, "../data/vehicles.json");
 
-const readVehicle = () => {
-    const data = fs.readFileSync(file , 'utf8');
-    return JSON.parse(data);
-}
+const modelVehicle = {
+  readFile: () => {
+    const data = fs.readFileSync(fileVehicle, "utf-8");
+    if (!data) {
+      console.log("no hay datos ");
+    } else {
+      return JSON.parse(data);
+    }
+  },
+  writeFile: (data) => {
+    const dataJson = JSON.stringify(data, null, 2);
+    fs.writeFileSync(fileVehicle, dataJson, "utf-8");
+  },
+};
 
-const writeVehicle = (data) => {
-    const JsonData = JSON.stringify(data , null, 2);
-    fs.writeFileSync(file, JsonData);
-   
-}
-
-module.exports = {writeVehicle, readVehicle};
-  
+module.exports = modelVehicle;
