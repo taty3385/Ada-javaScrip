@@ -34,7 +34,25 @@ const displayVehicle= {
         }
    
 
-    }}
+    },
+deelteVehicle:(id ,data)=>{
+    if (!id){
+        return JSON.stringify({
+            status:"error",
+            message:"no existe id ingresado",
+            data:[]
+        }, null, 2)
+    }else{
+        return JSON.stringify({
+            status: "susses",
+            message: `su vehiculo con ${id} ha sido eliminado correctamente`,
+            data: data
+        },null,2)
+    }
+}
+
+
+}
 
 
 

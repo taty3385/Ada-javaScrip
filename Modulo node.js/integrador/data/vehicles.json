@@ -39,18 +39,5 @@
     "year": 2010,
     "km": 10000,
     "id": "2c0f55cd-06e2-429f-9404-85a3c459531d"
-  },
-  {
-    "id": "753b411f-1d90-49a1-9910-9b5bab95f214",
-    "brand": "mmmm",
-    "model": "mmmm",
-    "year": 2020,
-    "km": 10000
-  },
-  {
-    "id": "3a0d0054-c7e7-4f44-978f-abaaf0f3ebc8",
-    "name": "gggggggggg",
-    "model": "ggggggggggg",
-    "year": "ffffffffff"
   }
 ]

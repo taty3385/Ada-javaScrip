@@ -15,17 +15,18 @@ const vehicleController = {
     return vehiclesView.displayVehicle.addvehichle(newVehicle);
   },
 
-//   delete: (id) => {
-//     const vehicles = vehiclesModel.readFile();
-//     const searchs = vehicles.find((vehicle) => vehicle.id === id);
-//     if (!searchs) {
-//       return " no existe id ingresado ";
-//     } else {
-//       const del = searchs.filter((search) => search.id !== id);
-//       vehiclesModel.writeFile(del);
-//       return `su vehiculo con ${id} ha sido eliminado correctamnete`;
-//     }
-//   },
-};
+ deleteVehicle: (id)=>{
+  const vehicles= vehiclesModel.readFile();
+  const searchVehicle = vehicles.find(vehicle=> vehicle.id === id);
+  if(!searchVehicle){
+    return vehiclesView.displayVehicle.deelteVehicle(id, []);
+
+ }else {
+  const deleteVehicle= vehicles.filter(vehicle=> vehicle.id !== id);
+  vehiclesModel.writeFile(deleteVehicle)
+  return vehiclesView.displayVehicle.deelteVehicle(id, deleteVehicle);
+ }
+}
+}
 
 module.exports = vehicleController;
