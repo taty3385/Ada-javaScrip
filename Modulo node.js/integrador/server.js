@@ -48,3 +48,9 @@ const server = net.createServer((socket) => {
 server.listen(8000, () => {
   console.log("servidor corriendo en el puerto 8000");
 });
+
+server.on('close',(socket)=>{
+    socket.end();
+  console.log("servidor cerrado");
+
+})
